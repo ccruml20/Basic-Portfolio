@@ -1,0 +1,14 @@
+body {
+	background-color: #ebebeb;
+}
+.Row {
+	background-color: #ffffff;
+}
+
+#container {
+	background-color: #ebebeb;
+}
+.headerStyle {
+	display: inline-block;
+	background-color: #ffffff;
+	width: 960px; 	
