@@ -75,7 +75,9 @@ nav a {
 .divStyle1 h1 {
 	margin: 10px 20px;
 	padding: 0;
-	width: 100%;
+	width: 90%;
+	border-bottom: 3px solid #cccccc; 
+	color: #4aaaa5;
 }
 .divStyle1 img {
 	float: left;
@@ -128,9 +130,45 @@ footer {
 	margin: 0 0;
 	padding: 0 0;
 	text-align: center;
+	border-top: solid #4aaaa5 5px;
+}
+footer p {
+	margin-top: 20px;
 }
 
+.divStyle2 {
+	width: 650px;
+	background-color: #ffffff;
+	border: solid #cccccc;
+/*	padding-left: 70px;*/
+	left: 20px;
+	position: relative;
+	color: #777777;
+	margin-bottom: 40px;
+	padding: 0;
 
+}
+.divStyle2 img {
+		width: 42%;
+	margin: 10px 0px 10px 0px;
+	padding-left: 30px;
+}
 
+.divStyle2 h1 {
+	margin: 10px 30px 10px 30px;
+	width: 88%;
+	border-bottom: 3px solid #cccccc; 
+	color: #4aaaa5;
+	height: calc(100% - 18px)
+}
+.divStyle1 input {
+	padding-left: 40px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+.divStyle1 textarea {
+	padding-left: 40px;
+	margin-left: 40px;
+}
 
 
