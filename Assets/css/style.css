@@ -1,57 +1,136 @@
-#container {
-	margin-left: auto;
-	margin-right: auto;
-}
-.nameStyle {
-	font-family: 'Georgia'; font-size: 40px; color: #ffffff;
-	background-color: #4aaaa5;
-	margin: 10px;
-	padding-left: 50px;
-}
-.navStyle {
-	display: table-row;
-	float: left;
-}
-.headerStyle {
-	background-color: #ffffff;
-	width: 500px; 	
-}
-.sectionStyle {
-	background-color: #ffffff;
-	padding-left: 50px;
-	width: 600px;
-	border: solid; color: #dddddd;
+.container {
+	background-image: url("../images/new_year_background.png");
+	width: 960px;
 	margin: 0;
+	padding: 0;
 }
-.aboutStyle {
 
-}
-.asideStyle {
-	width: 270px;
+header {
 	background-color: #ffffff;
+	border-bottom: solid; color: #cccccc;
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	padding: 0;
 }
-.footerStyle {
-	height: 80px;
-	background-color: #666666;
-}
-.sectionStyle img {
-	size: 20%;
 
+.nameStyle {
+	color: #ffffff;
+	padding: 10px 15px;
+	background-color: #4aaaa5;
+	width: 200px;
+	left: 20px;
+	font-family: Georgia;
+	margin: 0px 0px;
+	position: relative;
+	font-size: 1.5em;
 }
-.sectionStyle p {
-	color:  #777777;
+nav {
+	display: inline;
+	margin: 20px 20px;
+	padding: 0;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 20px;
+	margin-left: 700px;
+}
+nav li {
+	display: inline;
 	float: left;
+	border-right: 1px solid #bbb;
+	line-height: 5px;
+	font-family: Time s;
 }
-.sectionStyle h2 {
-	color:  #777777;
+
+nav a {
+	display: block;
+	padding: 10px;
+	color: #77777;
+	text-decoration: none;
 }
-.sectionStyle h1 {
-	color:  #777777;
+
+/*.divMenu:after {
+  content: "";
+  display: table;
+  clear: both;
 }
-body {
-	background-color: #ebebeb;
-}
+*/
 .divStyle1 {
+	width: 650px;
+	background-color: #ffffff;
+	border: solid #cccccc;
+/*	padding-left: 70px;*/
+	left: 20px;
+	position: relative;
+	color: #777777;
+	margin-bottom: 40px;
+	padding: 0;
 }
+
+.divStyle1 h1 {
+	margin: 10px 20px;
+	padding: 0;
+	width: 100%;
+}
+.divStyle1 img {
+	float: left;
+	width: 35%;
+	margin: 0px 20px 5px 20px;
+}
+
+.divStyle1 p { 
+	margin: 0px 20px 20px 20px;
+}
+
+
+.picBox {
+	width: 200px;
+	padding: 20px 20px;
+	position: absolute;
+	top: 70px;
+	left: 690px;
+}
+.picBox img {
+	width: 55px;
+    margin-right: 9px;
+    left: 6px;
+    position: relative;
+    height: 55px;
+}
+h3 {
+	font-size: 20px;
+	border-bottom: 5px solid #dddddd;
+	margin-right: 5px;
+	margin-left: 5px;
+    text-align: center;
+    margin-top: 18px;
+    padding-bottom: 12px;
+    
+}
+
+/*
+.divAside {
+	float: right;
+	margin: 20px 20px solid;
+	padding: 0 0;
+	display: inline;
+	background-color: #ccc;
+}*/
+footer {
+	width: 100%;
+	background-color: #666666;
+	height: 70px;
+	margin: 0 0;
+	padding: 0 0;
+	text-align: center;
+}
+
+
+
 
 
