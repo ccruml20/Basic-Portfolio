@@ -1,3 +1,8 @@
+/*
+body {
+	width: 960px;
+	align-self: center;
+}*/
 .container {
 	background-image: url("../images/new_year_background.png");
 	width: 960px;
@@ -106,6 +111,7 @@ nav a {
     left: 6px;
     position: relative;
     height: 55px;
+
 }
 h3 {
 	font-size: 20px;
@@ -151,6 +157,7 @@ footer p {
 	color: #777777;
 	margin-bottom: 40px;
 	padding: 0;
+	overflow: auto;
 
 }
 .divStyle2 img {
